@@ -1,7 +1,11 @@
 on_foot : False
 
 # 已过滤不需要的标签，下面是全标签
-swords : ['sightseeing/', 'hiking/', 'mountaineering/', 'biking/', 'driving/', 'running/', 'cross_country/', 'mountain_biking/', 'motorcycling/', 'skiing/', 'skateboard/', 'water/']
+# swords : ['sightseeing/', 'hiking/', 'mountaineering/', 'biking/', 'driving/', 'running/', 'cross_country/', 'mountain_biking/', 'motorcycling/', 'skiing/', 'skateboard/', 'water/']
+# 非步行标签
+# swords = [False, 'hiking/', 'mountaineering/', 'biking/', 'driving/', 'running/']
+# 步行标签
+# swords = [True, 'hiking/', 'running/']
 
 # 省份对应的代号
 pnum : ['30/',   '27/',   '32/', '31/', '29/', '28/',  '26/',   '25/',  '24/',
